@@ -1,0 +1,38 @@
+
+body{
+  margin: 0;
+}
+
+
+.nav-bar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-bar div{
+  background-color: #5692e350;
+  width: 11%;
+  text-align: center;
+  border-radius: 4px;
+  height: 45px;
+  background: linear-gradient(
+    0deg,
+    #868686 0%,
+    #949494 50%,
+    #717171 50%,
+    #8f8f8f 100%
+    );
+}
+
+.nav-bar div a{
+  padding: auto;
+  font-size: 14px;
+  line-height: 3.14286;
+  font-weight: 600;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-decoration: none;
+  color: white;
+}
