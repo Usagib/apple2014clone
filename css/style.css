@@ -5,7 +5,11 @@ html{
 #container{
   position: float;
   width: 100%;
-  background-color: red;
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-color: #cccccc;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   clear: both;
   height: 480px;
 
@@ -24,7 +28,6 @@ html{
   padding-left: auto;
   padding-right: auto;
   clear: both;
-
 }
 
 .bot-container-column{
