@@ -1,0 +1,61 @@
+html{
+  margin:0;
+  padding: 0;
+}
+#container{
+  position: float;
+  width: 100%;
+  background-color: red;
+  clear: both;
+  height: 480px;
+
+}
+.main-container{
+  background: url()
+}
+
+.main-subcontainer{
+  position: relative;
+  margin: 5% 5%;
+  background-color: blue;
+}
+
+#bot-container{
+  padding-left: auto;
+  padding-right: auto;
+  clear: both;
+
+}
+
+.bot-container-column{
+  background-color: peru;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+#bot-left-left{
+  margin-left: 0;
+  width: 25%;
+  padding: 0;
+}
+#bot-center-left{
+  margin-right: auto;
+  width: 25%;
+}
+#bot-center-right{
+  margin-right: auto;
+  width: 25%;
+}
+#bot-right-right{
+  margin-right: auto;
+  width: 25%;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.bot-img{
+  width: 100%;
+}
