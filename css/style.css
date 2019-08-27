@@ -6,7 +6,6 @@ html{
   position: float;
   width: 100%;
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
-  background-color: #cccccc;
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,14 +13,10 @@ html{
   height: 480px;
 
 }
-.main-container{
-  background: url()
-}
 
 .main-subcontainer{
   position: relative;
-  margin: 5% 5%;
-  background-color: blue;
+  margin: 5% 7%;
 }
 
 #bot-container{
@@ -31,7 +26,6 @@ html{
 }
 
 .bot-container-column{
-  background-color: peru;
   position: relative;
   float: left;
   overflow: hidden;
@@ -61,4 +55,51 @@ html{
 
 .bot-img{
   width: 100%;
+}
+
+.img-wrapper{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.hero-subhead{
+  margin-top: -14px;
+  margin-bottom: 20px;
+}
+
+#your-verse-sprite{
+  height: 32px;
+  background: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png) 0 0;
+  background-position-x: 50%;
+}
+
+#your-verse-sprite:hover{
+  background-position-y: bottom;
+}
+
+
+#footer{
+  display: float;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  color: gray;
+  margin: 0 7%;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #00A4E0;
+}
+
+.footer-left{
+  float: left;
+}
+
+.footer-right{
+  float: right;
+}
+
+.footer-down{
+  clear: both;
+  padding-top: 10px;
 }
