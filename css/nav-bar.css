@@ -14,7 +14,6 @@ body{
 }
 
 .nav-bar div{
-  background-color: #5692e350;
   width: 11%;
   text-align: center;
   height: 45px;
@@ -51,7 +50,6 @@ body{
 }
 
 .nav-bar div:hover{
-  background-color: #5692e350;
   width: 11%;
   text-align: center;
   height: 45px;
